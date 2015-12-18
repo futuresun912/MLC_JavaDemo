@@ -4,7 +4,6 @@
 
 import meka.classifiers.multilabel.*;
 
-
 public class PerformMLC {
 
     // ***********************************
@@ -16,6 +15,7 @@ public class PerformMLC {
     static String baseline = "Logistic";         // Logistic, NaiveBayes, SMO...
     static boolean flagCV = false;               // use CV if true
     static boolean flagDebug = false;            // output debug infor. if true
+    static String path = "../workspace/data/";   // set the path of datasets
     // ***********************************
     static boolean flagMulan = false;            // Use mulan if true
     static String[] options = new String[14];    // specified options
@@ -45,7 +45,7 @@ public class PerformMLC {
         // Select a dataset and MLC method.
         // **********************************
         String filename = dataList[0];
-        String mlMetond = "homer";
+        String mlMetond = "cc";
         // **********************************
 
         switch (mlMetond) {
@@ -92,7 +92,7 @@ public class PerformMLC {
 
         // select a data set
         options[0] = "-t";
-        options[1] = "/home/pipi/workspace/data/" + arffname + ".arff";
+        options[1] = path + arffname + ".arff";
 
         if (flagCV) {
             // use n-fold cross validation
