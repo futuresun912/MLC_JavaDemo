@@ -7,7 +7,7 @@ mulan-1.4.0 (URL: http://sourceforge.net/projects/mulan/files/mulan-1-4/mulan-1.
 meka-1.7.7 (URL: http://sourceforge.net/projects/meka/files/meka-1.7.7/);  
 mst (URL: http://algs4.cs.princeton.edu/code/algs4.jar).  
 
-The program includes:
+The program includes:  
 1. PerformMLC.java (the main function);  
 2. PACCLDF.java (polytree-augmented classifier chains with label-dependent features);  
 3. MLFeaSelect.java (two-stage label-dependent feature selection);  
