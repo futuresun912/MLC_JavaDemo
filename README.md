@@ -8,14 +8,14 @@ meka-1.7.7 (URL: http://sourceforge.net/projects/meka/files/meka-1.7.7/); mst (U
 
 The program includes:
 1. PerformMLC.java
-the main function;
+(the main function);
 2. PACCLDF.java
-polytree-augmented classifier chains with label-dependent features;
+(polytree-augmented classifier chains with label-dependent features);
 3. MLFeaSelect.java
-two-stage label-dependent feature selection;
+(two-stage label-dependent feature selection);
 4. polytree.java
-build the polytree structure in label space;
+(construction of the polytree structure);
 5. StatUtilsPro.java
-Statistical functions for MLC;
+(statistical functions for MLC);
 6. GreedyCC
-greedy search method with specified start set.
+(greedy search approach with specified start set).
